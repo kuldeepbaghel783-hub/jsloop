@@ -41,9 +41,9 @@ do {
  while (prime<5);
 
 
- for (let i = 0; i<153; i++) {
+ for (let i = 1; i<=153; i++) {
   
-    if (a%i == 1) {
+    if (a%i == 0) {
         console.log("these are factor153");
         console.log(i);
         
